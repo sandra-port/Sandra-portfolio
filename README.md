@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sandra Vadhani R | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
   <style>
     * {
       margin: 0;
@@ -12,37 +12,46 @@
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
     }
+
     body {
       background: #f5f6fa;
       color: #2f3640;
+      line-height: 1.6;
     }
+
     header {
       background: #2d3436;
       color: #fff;
       padding: 2rem;
       text-align: center;
     }
+
     header h1 {
       font-size: 2.5rem;
     }
+
     .section {
       padding: 2rem;
       max-width: 900px;
       margin: auto;
     }
+
     .section h2 {
       border-left: 5px solid #0984e3;
       padding-left: 1rem;
       margin-bottom: 1rem;
       font-size: 1.8rem;
     }
+
     .section ul {
       list-style: none;
       padding-left: 1rem;
     }
+
     .section li {
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.8rem;
     }
+
     .contact {
       background: #dfe6e9;
       padding: 1.5rem;
@@ -50,10 +59,14 @@
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
+      max-width: 900px;
+      margin: 2rem auto;
     }
+
     .contact span {
-      font-weight: 500;
+      font-weight: 600;
     }
+
     footer {
       background: #2d3436;
       color: #fff;
@@ -61,12 +74,24 @@
       padding: 1rem;
       margin-top: 2rem;
     }
+
     .highlight {
       color: #0984e3;
+      font-weight: 600;
+    }
+
+    a {
+      color: #0984e3;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Sandra Vadhani R</h1>
     <p>Student | Aspiring Data Analyst & UI/UX Designer</p>
@@ -75,17 +100,26 @@
   <div class="section contact">
     <h2>Contact</h2>
     <p><span>Email:</span> vadhani2005@example.com</p>
-    <p><span>Phone:</span> 9840470109
+    <p><span>Phone:</span> 9840470109</p>
     <p><span>Location:</span> Chennai, India</p>
-    <p><span>LinkedIn:</span> https://www.linkedin.com/in/sandra-vadhani-79a7b4287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app </p>
-    <p><span>Portfolio:</span> file:///C:/Users/VIJI/Desktop/html%20doc/index.html </p>
+    <p><span>LinkedIn:</span> 
+      <a href="https://www.linkedin.com/in/sandra-vadhani-79a7b4287" target="_blank">
+        linkedin.com/in/sandra-vadhani-79a7b4287
+      </a>
+    </p>
+    <p><span>Portfolio:</span> 
+      <a href="https://sandra.github.io/portfolio" target="_blank">
+        sandra.github.io/portfolio
+      </a>
+    </p>
   </div>
 
   <div class="section">
     <h2>Professional Summary</h2>
     <p>
       Motivated and curious student with a strong passion for continuous learning and self-improvement.
-      Proficient in <span class="highlight">Python</span> and <span class="highlight">Microsoft Excel</span>, with a growing interest in UI/UX design, currently exploring tools like Figma. Known for being proactive in acquiring new skills and staying updated with emerging technologies.
+      Proficient in <span class="highlight">Python</span> and <span class="highlight">Microsoft Excel</span>, with a growing interest in UI/UX design,
+      currently exploring tools like Figma. Known for being proactive in acquiring new skills and staying updated with emerging technologies.
     </p>
   </div>
 
